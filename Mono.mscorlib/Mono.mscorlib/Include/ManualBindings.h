@@ -86,6 +86,7 @@
 #import "System_Collections_Generic_KeyValuePairA2.h"
 #import "System_Collections_Generic_ICollectionA1.h"
 #import "System_Collections_Generic_IComparerA1.h"
+#import "System_Collections_ObjectModel_CollectionA1.h"
 
 #import "System_Runtime_Serialization_ISerializable.h"
 #import "System_AsyncCallback.h"
