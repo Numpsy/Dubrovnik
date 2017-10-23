@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB2654861E265E7800422E35 /* Mono_Mscorlib_Assembly.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2654841E265E7800422E35 /* Mono_Mscorlib_Assembly.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB2654871E265E7800422E35 /* Mono_Mscorlib_Assembly.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2654851E265E7800422E35 /* Mono_Mscorlib_Assembly.m */; };
-		AB26E09F1E4A0040004876FE /* Mono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB26E09E1E4A0040004876FE /* Mono.framework */; };
+		AB26E09F1E4A0040004876FE /* Mono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB26E09E1E4A0040004876FE /* Mono.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AB2E74C718FFDB0D0061C63E /* Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2E74C218FFDB0D0061C63E /* Categories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB2E74C818FFDB0D0061C63E /* Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2E74C318FFDB0D0061C63E /* Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB2E74C918FFDB0D0061C63E /* GeneratedBindings.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2E74C418FFDB0D0061C63E /* GeneratedBindings.h */; settings = {ATTRIBUTES = (Public, ); }; };
