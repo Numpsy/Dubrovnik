@@ -29,7 +29,7 @@
 		AB223CE71C9DFF2F0017DA8A /* System_TimeZoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AB223CE51C9DFF2F0017DA8A /* System_TimeZoneInfo.m */; };
 		AB2654861E265E7800422E35 /* Mono_Mscorlib_Assembly.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2654841E265E7800422E35 /* Mono_Mscorlib_Assembly.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB2654871E265E7800422E35 /* Mono_Mscorlib_Assembly.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2654851E265E7800422E35 /* Mono_Mscorlib_Assembly.m */; };
-		AB26E09F1E4A0040004876FE /* Mono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB26E09E1E4A0040004876FE /* Mono.framework */; };
+		AB26E09F1E4A0040004876FE /* Mono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB26E09E1E4A0040004876FE /* Mono.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AB2D42A41E6F26DB00C82E1A /* System_Attribute.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2D42A21E6F26DB00C82E1A /* System_Attribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB2D42A51E6F26DB00C82E1A /* System_Attribute.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2D42A31E6F26DB00C82E1A /* System_Attribute.m */; };
 		AB2E742518FFCB7C0061C63E /* System_Reflection_ConstructorInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = AB2E742318FFCB7C0061C63E /* System_Reflection_ConstructorInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };

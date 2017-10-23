@@ -12,7 +12,7 @@
 		AB178063199B7633005DC8BC /* System_ComponentModel_PropertyChangingEventArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = AB178061199B7633005DC8BC /* System_ComponentModel_PropertyChangingEventArgs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB178064199B7633005DC8BC /* System_ComponentModel_PropertyChangingEventArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = AB178062199B7633005DC8BC /* System_ComponentModel_PropertyChangingEventArgs.m */; };
 		AB17A02A1F6BEDEC00FED930 /* System_Collections_Specialized_NotifyCollectionChangedAction.h in Headers */ = {isa = PBXBuildFile; fileRef = AB17A0291F6BEDEC00FED930 /* System_Collections_Specialized_NotifyCollectionChangedAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB26E0AD1E4A15C0004876FE /* Mono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB26E0AC1E4A15C0004876FE /* Mono.framework */; };
+		AB26E0AD1E4A15C0004876FE /* Mono.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB26E0AC1E4A15C0004876FE /* Mono.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AB61C1621F72833F00C1E7AE /* System_Uri.h in Headers */ = {isa = PBXBuildFile; fileRef = AB61C1561F72833F00C1E7AE /* System_Uri.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB61C1631F72833F00C1E7AE /* System_Uri.m in Sources */ = {isa = PBXBuildFile; fileRef = AB61C1571F72833F00C1E7AE /* System_Uri.m */; };
 		AB61C1641F72833F00C1E7AE /* System_UriComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = AB61C1581F72833F00C1E7AE /* System_UriComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
