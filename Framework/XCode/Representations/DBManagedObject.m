@@ -396,9 +396,10 @@ static void ManagedEvent_ManagedObject_PropertyChanging(MonoObject* monoSender, 
 {
     // Mono requires mono_thread_attach() to be called before accessing the runtime from a thread.
     // We could do this but it seems prudent just to dispatch the required operation onto the main thread.
-        
+    
     // hmm. need to be careful here that we don't inadvertently make an inappropriate call during the dealloc.
-   [self performSelectorOnMainThread:@selector(disposeOfInstance) withObject:nil waitUntilDone:YES];
+    //[self performSelectorOnMainThread:@selector(disposeOfInstance) withObject:nil waitUntilDone:YES];
+    [self disposeOfInstance];
 }
 
 - (void)disposeOfInstance
