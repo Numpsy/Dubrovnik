@@ -24,6 +24,7 @@
 @class System_Globalization_CultureInfo;
 @class System_Int32;
 @class System_Int64;
+@class System_IO_FileStream;
 @class System_IO_Stream;
 @class System_Object;
 @class System_Reflection_Assembly;
@@ -393,11 +394,50 @@
 */
 - (System_Array *)getExportedTypes;
 
-/* Skipped method : System.IO.FileStream GetFile(System.String name) */
+/**
+ Managed method.
+ @textblock
+ Name
+   GetFile
 
-/* Skipped method : System.IO.FileStream[] GetFiles() */
+ Params
+   System.String
 
-/* Skipped method : System.IO.FileStream[] GetFiles(System.Boolean getResourceModules) */
+ Return
+   System.IO.FileStream
+ @/textblock
+*/
+- (System_IO_FileStream *)getFile_withName:(NSString *)p1;
+
+/**
+ Managed method.
+ @textblock
+ Name
+   GetFiles
+
+ Params
+   (none)
+
+ Return
+   System.IO.FileStream[]
+ @/textblock
+*/
+- (System_Array *)getFiles;
+
+/**
+ Managed method.
+ @textblock
+ Name
+   GetFiles
+
+ Params
+   System.Boolean
+
+ Return
+   System.IO.FileStream[]
+ @/textblock
+*/
+- (System_Array *)getFiles_withGetResourceModules:(BOOL)p1;
 
 /**
  Managed method.

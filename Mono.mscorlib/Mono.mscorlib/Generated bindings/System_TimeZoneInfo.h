@@ -19,6 +19,7 @@
 //
 @class System_Array;
 @class System_Boolean;
+@class System_Collections_ObjectModel_ReadOnlyCollectionA1;
 @class System_DateTime;
 @class System_IEquatableA1;
 @class System_Int32;
@@ -450,7 +451,20 @@
 */
 - (int32_t)getHashCode;
 
-/* Skipped method : System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo> GetSystemTimeZones() */
+/**
+ Managed method.
+ @textblock
+ Name
+   GetSystemTimeZones
+
+ Params
+   (none)
+
+ Return
+   System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo>
+ @/textblock
+*/
++ (System_Collections_ObjectModel_ReadOnlyCollectionA1 *)getSystemTimeZones;
 
 /* Skipped method : System.TimeSpan GetUtcOffset(System.DateTimeOffset dateTimeOffset) */
 

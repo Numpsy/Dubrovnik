@@ -23,10 +23,14 @@
 @class System_Collections_Generic_ICollectionA1;
 @class System_Collections_Generic_IComparerA1;
 @class System_Collections_Generic_IEnumerableA1;
+@class System_Collections_Generic_IListA1;
+@class System_Collections_Generic_IReadOnlyCollectionA1;
+@class System_Collections_Generic_IReadOnlyListA1;
 @class System_Collections_Generic_ListA1;
 @class System_Collections_Generic_ListA1__Enumerator;
 @class System_Collections_IEnumerable;
 @class System_Collections_IList;
+@class System_Collections_ObjectModel_ReadOnlyCollectionA1;
 @class System_Int32;
 @class System_Object;
 @class System_Void;
@@ -46,11 +50,14 @@
 //
 #import "System_Collections_Generic_ICollectionA1_Protocol.h"
 #import "System_Collections_Generic_IEnumerableA1_Protocol.h"
+#import "System_Collections_Generic_IListA1_Protocol.h"
+#import "System_Collections_Generic_IReadOnlyCollectionA1_Protocol.h"
+#import "System_Collections_Generic_IReadOnlyListA1_Protocol.h"
 #import "System_Collections_IEnumerable_Protocol.h"
 #import "System_Collections_IList_Protocol.h"
 #import "System_Object.h"
 
-@interface System_Collections_Generic_ListA1 : System_Object <System_Collections_Generic_ICollectionA1_, System_Collections_Generic_IEnumerableA1_, System_Collections_IEnumerable_, System_Collections_IList_>
+@interface System_Collections_Generic_ListA1 : System_Object <System_Collections_Generic_IListA1_, System_Collections_Generic_ICollectionA1_, System_Collections_Generic_IEnumerableA1_, System_Collections_IEnumerable_, System_Collections_IList_, System_Collections_Generic_IReadOnlyListA1_, System_Collections_Generic_IReadOnlyCollectionA1_>
 
 #pragma mark -
 #pragma mark Setup
@@ -182,7 +189,20 @@
 */
 - (void)addRange_withCollection:(id <System_Collections_Generic_IEnumerableA1_>)p1;
 
-/* Skipped method : System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.List`1+T> AsReadOnly() */
+/**
+ Managed method.
+ @textblock
+ Name
+   AsReadOnly
+
+ Params
+   (none)
+
+ Return
+   System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.List`1+T>
+ @/textblock
+*/
+- (System_Collections_ObjectModel_ReadOnlyCollectionA1 *)asReadOnly;
 
 /**
  Managed method.

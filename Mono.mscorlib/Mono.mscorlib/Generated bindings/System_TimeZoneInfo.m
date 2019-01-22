@@ -308,7 +308,11 @@ static System_TimeZoneInfo * m_utc;
 	return DB_UNBOX_INT32(monoObject);
 }
 
-/* Skipped method : System.Collections.ObjectModel.ReadOnlyCollection`1<System.TimeZoneInfo> GetSystemTimeZones() */
++ (System_Collections_ObjectModel_ReadOnlyCollectionA1 *)getSystemTimeZones
+{
+	MonoObject *monoObject = [self invokeMonoClassMethod:"GetSystemTimeZones()" withNumArgs:0];
+	return [System_Collections_ObjectModel_ReadOnlyCollectionA1 bestObjectWithMonoObject:monoObject];
+}
 
 /* Skipped method : System.TimeSpan GetUtcOffset(System.DateTimeOffset dateTimeOffset) */
 

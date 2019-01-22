@@ -24,6 +24,7 @@
 @class System_Collections_IEnumerable;
 @class System_Collections_IEnumerator;
 @class System_Collections_IList;
+@class System_Collections_ObjectModel_ReadOnlyCollectionA1;
 @class System_ICloneable;
 @class System_Int32;
 @class System_Int64;
@@ -151,7 +152,23 @@
 #pragma mark -
 #pragma mark Methods
 
-/* Skipped method : System.Collections.ObjectModel.ReadOnlyCollection`1<System.Array+T> AsReadOnly(T[] array) */
+/**
+ Managed method.
+ @textblock
+ Name
+   AsReadOnly
+
+ Params
+   T[]
+
+ Generics
+   <System.Array+T>
+
+ Return
+   System.Collections.ObjectModel.ReadOnlyCollection`1<System.Array+T>
+ @/textblock
+*/
++ (System_Collections_ObjectModel_ReadOnlyCollectionA1 *)asReadOnly_withArray:(System_Array *)p1 typeParameter:(id)typeParameter;
 
 /**
  Managed method.

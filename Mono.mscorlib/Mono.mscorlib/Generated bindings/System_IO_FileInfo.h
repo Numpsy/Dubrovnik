@@ -19,7 +19,11 @@
 //
 @class System_Boolean;
 @class System_Int64;
+@class System_IO_FileAccess;
 @class System_IO_FileInfo;
+@class System_IO_FileMode;
+@class System_IO_FileShare;
+@class System_IO_FileStream;
 @class System_Runtime_Serialization_ISerializable;
 @class System_String;
 @class System_Void;
@@ -27,15 +31,17 @@
 //
 // Local assembly imports
 //
-
+#import "System_IO_FileAccess.h"
+#import "System_IO_FileMode.h"
+#import "System_IO_FileShare.h"
 
 //
 // Import superclass and adopted protocols
 //
+#import "System_IO_FileSystemInfo.h"
 #import "System_Runtime_Serialization_ISerializable_Protocol.h"
-//#import "System_IO_FileSystemInfo.h" // class base defaults to System.Object
 
-@interface System_IO_FileInfo : System_Object <System_Runtime_Serialization_ISerializable_>
+@interface System_IO_FileInfo : System_IO_FileSystemInfo <System_Runtime_Serialization_ISerializable_>
 
 #pragma mark -
 #pragma mark Setup
@@ -162,7 +168,20 @@
 */
 - (System_IO_FileInfo *)copyTo_withDestFileName:(NSString *)p1 overwrite:(BOOL)p2;
 
-/* Skipped method : System.IO.FileStream Create() */
+/**
+ Managed method.
+ @textblock
+ Name
+   Create
+
+ Params
+   (none)
+
+ Return
+   System.IO.FileStream
+ @/textblock
+*/
+- (System_IO_FileStream *)create;
 
 /* Skipped method : System.IO.StreamWriter CreateText() */
 
@@ -230,17 +249,85 @@
 */
 - (void)moveTo_withDestFileName:(NSString *)p1;
 
-/* Skipped method : System.IO.FileStream Open(System.IO.FileMode mode) */
+/**
+ Managed method.
+ @textblock
+ Name
+   Open
 
-/* Skipped method : System.IO.FileStream Open(System.IO.FileMode mode, System.IO.FileAccess access) */
+ Params
+   System.IO.FileMode
 
-/* Skipped method : System.IO.FileStream Open(System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) */
+ Return
+   System.IO.FileStream
+ @/textblock
+*/
+- (System_IO_FileStream *)open_withMode:(enumSystem_IO_FileMode)p1;
 
-/* Skipped method : System.IO.FileStream OpenRead() */
+/**
+ Managed method.
+ @textblock
+ Name
+   Open
+
+ Params
+   System.IO.FileMode
+   System.IO.FileAccess
+
+ Return
+   System.IO.FileStream
+ @/textblock
+*/
+- (System_IO_FileStream *)open_withMode:(enumSystem_IO_FileMode)p1 access:(enumSystem_IO_FileAccess)p2;
+
+/**
+ Managed method.
+ @textblock
+ Name
+   Open
+
+ Params
+   System.IO.FileMode
+   System.IO.FileAccess
+   System.IO.FileShare
+
+ Return
+   System.IO.FileStream
+ @/textblock
+*/
+- (System_IO_FileStream *)open_withMode:(enumSystem_IO_FileMode)p1 access:(enumSystem_IO_FileAccess)p2 share:(enumSystem_IO_FileShare)p3;
+
+/**
+ Managed method.
+ @textblock
+ Name
+   OpenRead
+
+ Params
+   (none)
+
+ Return
+   System.IO.FileStream
+ @/textblock
+*/
+- (System_IO_FileStream *)openRead;
 
 /* Skipped method : System.IO.StreamReader OpenText() */
 
-/* Skipped method : System.IO.FileStream OpenWrite() */
+/**
+ Managed method.
+ @textblock
+ Name
+   OpenWrite
+
+ Params
+   (none)
+
+ Return
+   System.IO.FileStream
+ @/textblock
+*/
+- (System_IO_FileStream *)openWrite;
 
 /**
  Managed method.

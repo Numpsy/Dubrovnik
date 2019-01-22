@@ -173,7 +173,11 @@
 	return [System_IO_FileInfo bestObjectWithMonoObject:monoObject];
 }
 
-/* Skipped method : System.IO.FileStream Create() */
+- (System_IO_FileStream *)create
+{
+	MonoObject *monoObject = [self invokeMonoMethod:"Create()" withNumArgs:0];
+	return [System_IO_FileStream bestObjectWithMonoObject:monoObject];
+}
 
 /* Skipped method : System.IO.StreamWriter CreateText() */
 
@@ -201,17 +205,37 @@
 	[self invokeMonoMethod:"MoveTo(string)" withNumArgs:1, [p1 monoRTInvokeArg]];
 }
 
-/* Skipped method : System.IO.FileStream Open(System.IO.FileMode mode) */
+- (System_IO_FileStream *)open_withMode:(enumSystem_IO_FileMode)p1
+{
+	MonoObject *monoObject = [self invokeMonoMethod:"Open(System.IO.FileMode)" withNumArgs:1, DB_VALUE(p1)];
+	return [System_IO_FileStream bestObjectWithMonoObject:monoObject];
+}
 
-/* Skipped method : System.IO.FileStream Open(System.IO.FileMode mode, System.IO.FileAccess access) */
+- (System_IO_FileStream *)open_withMode:(enumSystem_IO_FileMode)p1 access:(enumSystem_IO_FileAccess)p2
+{
+	MonoObject *monoObject = [self invokeMonoMethod:"Open(System.IO.FileMode,System.IO.FileAccess)" withNumArgs:2, DB_VALUE(p1), DB_VALUE(p2)];
+	return [System_IO_FileStream bestObjectWithMonoObject:monoObject];
+}
 
-/* Skipped method : System.IO.FileStream Open(System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) */
+- (System_IO_FileStream *)open_withMode:(enumSystem_IO_FileMode)p1 access:(enumSystem_IO_FileAccess)p2 share:(enumSystem_IO_FileShare)p3
+{
+	MonoObject *monoObject = [self invokeMonoMethod:"Open(System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)" withNumArgs:3, DB_VALUE(p1), DB_VALUE(p2), DB_VALUE(p3)];
+	return [System_IO_FileStream bestObjectWithMonoObject:monoObject];
+}
 
-/* Skipped method : System.IO.FileStream OpenRead() */
+- (System_IO_FileStream *)openRead
+{
+	MonoObject *monoObject = [self invokeMonoMethod:"OpenRead()" withNumArgs:0];
+	return [System_IO_FileStream bestObjectWithMonoObject:monoObject];
+}
 
 /* Skipped method : System.IO.StreamReader OpenText() */
 
-/* Skipped method : System.IO.FileStream OpenWrite() */
+- (System_IO_FileStream *)openWrite
+{
+	MonoObject *monoObject = [self invokeMonoMethod:"OpenWrite()" withNumArgs:0];
+	return [System_IO_FileStream bestObjectWithMonoObject:monoObject];
+}
 
 - (System_IO_FileInfo *)replace_withDestinationFileName:(NSString *)p1 destinationBackupFileName:(NSString *)p2
 {

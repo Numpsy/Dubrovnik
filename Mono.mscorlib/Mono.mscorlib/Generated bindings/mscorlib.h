@@ -9,7 +9,7 @@
 // http://github.com/ThesaurusSoftware/Dubrovnik
 // This code has dependencies on the above project.
 //
-// Date:     12/31/2018 8:21:50 PM
+// Date:     22/01/2019 14:56:40
 //
 // Assembly: mscorlib
 // Fullname: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -200,14 +200,10 @@
 #define SCGIEnumeratorA1_ System_Collections_Generic_IEnumeratorA1
 
 /* Skipped type : System.Collections.Generic.IEqualityComparer`1<System.Collections.Generic.IEqualityComparer`1+T> IEqualityComparer`1<T> */
-
-/* Skipped type : System.Collections.Generic.IList`1<System.Collections.Generic.IList`1+T> IList`1<T> */
-
-/* Skipped type : System.Collections.Generic.IReadOnlyCollection`1<System.Collections.Generic.IReadOnlyCollection`1+T> IReadOnlyCollection`1<T> */
-
-/* Skipped type : System.Collections.Generic.IReadOnlyDictionary`2<System.Collections.Generic.IReadOnlyDictionary`2+TKey, System.Collections.Generic.IReadOnlyDictionary`2+TValue> IReadOnlyDictionary`2<TKey, TValue> */
-
-/* Skipped type : System.Collections.Generic.IReadOnlyList`1<System.Collections.Generic.IReadOnlyList`1+T> IReadOnlyList`1<T> */
+#define SCGIListA1_ System_Collections_Generic_IListA1
+#define SCGIReadOnlyCollectionA1_ System_Collections_Generic_IReadOnlyCollectionA1
+#define SCGIReadOnlyDictionaryA2_ System_Collections_Generic_IReadOnlyDictionaryA2
+#define SCGIReadOnlyListA1_ System_Collections_Generic_IReadOnlyListA1
 
 /* Skipped type : System.Collections.Generic.KeyNotFoundException KeyNotFoundException */
 #define SCGKeyValuePairA2_ System_Collections_Generic_KeyValuePairA2
@@ -237,18 +233,13 @@
 #define SCOCollectionA1_ System_Collections_ObjectModel_CollectionA1
 
 /* Skipped type : System.Collections.ObjectModel.KeyedCollection`2<System.Collections.ObjectModel.KeyedCollection`2+TKey, System.Collections.ObjectModel.KeyedCollection`2+TItem> KeyedCollection`2<TKey, TItem> */
-
-/* Skipped type : System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.ObjectModel.ReadOnlyCollection`1+T> ReadOnlyCollection`1<T> */
-
-/* Skipped type : System.Collections.ObjectModel.ReadOnlyDictionary`2<System.Collections.ObjectModel.ReadOnlyDictionary`2+KeyCollection+TKey, System.Collections.ObjectModel.ReadOnlyDictionary`2+KeyCollection+TValue>+KeyCollection ReadOnlyDictionary`2<TKey, TValue>.KeyCollection */
-
-/* Skipped type : System.Collections.ObjectModel.ReadOnlyDictionary`2<System.Collections.ObjectModel.ReadOnlyDictionary`2+TKey, System.Collections.ObjectModel.ReadOnlyDictionary`2+TValue> ReadOnlyDictionary`2<TKey, TValue> */
-
-/* Skipped type : System.Collections.ObjectModel.ReadOnlyDictionary`2<System.Collections.ObjectModel.ReadOnlyDictionary`2+ValueCollection+TKey, System.Collections.ObjectModel.ReadOnlyDictionary`2+ValueCollection+TValue>+ValueCollection ReadOnlyDictionary`2<TKey, TValue>.ValueCollection */
+#define SCOReadOnlyCollectionA1_ System_Collections_ObjectModel_ReadOnlyCollectionA1
+#define SCOReadOnlyDictionaryA2_KeyCollection_ System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection
+#define SCOReadOnlyDictionaryA2_ System_Collections_ObjectModel_ReadOnlyDictionaryA2
+#define SCOReadOnlyDictionaryA2_ValueCollection_ System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection
 
 /* Skipped type : System.Collections.Queue Queue */
-
-/* Skipped type : System.Collections.ReadOnlyCollectionBase ReadOnlyCollectionBase */
+#define SCReadOnlyCollectionBase_ System_Collections_ReadOnlyCollectionBase
 
 /* Skipped type : System.Collections.SortedList SortedList */
 
@@ -630,26 +621,17 @@
 /* Skipped type : System.IO.DriveType DriveType */
 
 /* Skipped type : System.IO.EndOfStreamException EndOfStreamException */
-
-/* Skipped type : System.IO.File File */
-
-/* Skipped type : System.IO.FileAccess FileAccess */
+#define SIFile_ System_IO_File
+#define SIFileAccess_ System_IO_FileAccess
 #define SIFileAttributes_ System_IO_FileAttributes
 #define SIFileInfo_ System_IO_FileInfo
-
-/* Skipped type : System.IO.FileLoadException FileLoadException */
-
-/* Skipped type : System.IO.FileMode FileMode */
-
-/* Skipped type : System.IO.FileNotFoundException FileNotFoundException */
-
-/* Skipped type : System.IO.FileOptions FileOptions */
-
-/* Skipped type : System.IO.FileShare FileShare */
-
-/* Skipped type : System.IO.FileStream FileStream */
-
-/* Skipped type : System.IO.FileSystemInfo FileSystemInfo */
+#define SIFileLoadException_ System_IO_FileLoadException
+#define SIFileMode_ System_IO_FileMode
+#define SIFileNotFoundException_ System_IO_FileNotFoundException
+#define SIFileOptions_ System_IO_FileOptions
+#define SIFileShare_ System_IO_FileShare
+#define SIFileStream_ System_IO_FileStream
+#define SIFileSystemInfo_ System_IO_FileSystemInfo
 
 /* Skipped type : System.IO.IOException IOException */
 
@@ -3046,6 +3028,18 @@ Assembly type imports
 #import "System_Collections_Generic_IEnumeratorA1.h"
 #import "System_Collections_Generic_IEnumeratorA1.h"
 #import "System_Collections_Generic_IEnumeratorA1_Protocol.h"
+#import "System_Collections_Generic_IListA1.h"
+#import "System_Collections_Generic_IListA1.h"
+#import "System_Collections_Generic_IListA1_Protocol.h"
+#import "System_Collections_Generic_IReadOnlyCollectionA1.h"
+#import "System_Collections_Generic_IReadOnlyCollectionA1.h"
+#import "System_Collections_Generic_IReadOnlyCollectionA1_Protocol.h"
+#import "System_Collections_Generic_IReadOnlyDictionaryA2.h"
+#import "System_Collections_Generic_IReadOnlyDictionaryA2.h"
+#import "System_Collections_Generic_IReadOnlyDictionaryA2_Protocol.h"
+#import "System_Collections_Generic_IReadOnlyListA1.h"
+#import "System_Collections_Generic_IReadOnlyListA1.h"
+#import "System_Collections_Generic_IReadOnlyListA1_Protocol.h"
 #import "System_Collections_Generic_KeyValuePairA2.h"
 #import "System_Collections_Generic_ListA1__Enumerator.h"
 #import "System_Collections_Generic_ListA1.h"
@@ -3059,6 +3053,11 @@ Assembly type imports
 #import "System_Collections_IList.h"
 #import "System_Collections_IList_Protocol.h"
 #import "System_Collections_ObjectModel_CollectionA1.h"
+#import "System_Collections_ObjectModel_ReadOnlyCollectionA1.h"
+#import "System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.h"
+#import "System_Collections_ObjectModel_ReadOnlyDictionaryA2.h"
+#import "System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.h"
+#import "System_Collections_ReadOnlyCollectionBase.h"
 #import "System_Convert.h"
 #import "System_CrossAppDomainDelegate.h"
 #import "System_DateTime.h"
@@ -3100,8 +3099,17 @@ Assembly type imports
 #import "System_Int32.h"
 #import "System_Int64.h"
 #import "System_IntPtr.h"
+#import "System_IO_File.h"
+#import "System_IO_FileAccess.h"
 #import "System_IO_FileAttributes.h"
 #import "System_IO_FileInfo.h"
+#import "System_IO_FileLoadException.h"
+#import "System_IO_FileMode.h"
+#import "System_IO_FileNotFoundException.h"
+#import "System_IO_FileOptions.h"
+#import "System_IO_FileShare.h"
+#import "System_IO_FileStream.h"
+#import "System_IO_FileSystemInfo.h"
 #import "System_IO_Stream.h"
 #import "System_IO_StringReader.h"
 #import "System_IO_StringWriter.h"
