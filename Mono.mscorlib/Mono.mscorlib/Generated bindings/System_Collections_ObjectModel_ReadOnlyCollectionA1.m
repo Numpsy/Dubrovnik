@@ -1,6 +1,6 @@
-﻿//++Dubrovnik.CodeGenerator System_Collections_ObjectModel_CollectionA1.m
+﻿//++Dubrovnik.CodeGenerator System_Collections_ObjectModel_ReadOnlyCollectionA1.m
 //
-// Managed class : Collection`1<T>
+// Managed class : ReadOnlyCollection`1<T>
 //
 
 // ARC is required
@@ -15,14 +15,14 @@
 #import "mscorlib.private.h"    // Not auto generated. Add manually to project.
 #endif
 
-@implementation System_Collections_ObjectModel_CollectionA1
+@implementation System_Collections_ObjectModel_ReadOnlyCollectionA1
 
 #pragma mark -
 #pragma mark Setup
 
 + (const char *)monoClassName
 {
-	return "System.Collections.ObjectModel.Collection`1";
+	return "System.Collections.ObjectModel.ReadOnlyCollection`1";
 }
 
 + (const char *)monoAssemblyName
@@ -33,9 +33,9 @@
 #pragma mark -
 #pragma mark Constructors
 
-+ (System_Collections_ObjectModel_CollectionA1 *)new_withList:(id <System_Collections_Generic_IListA1_>)p1
++ (System_Collections_ObjectModel_ReadOnlyCollectionA1 *)new_withList:(id <System_Collections_Generic_IListA1_>)p1
 {
-	System_Collections_ObjectModel_CollectionA1 * object = [[self alloc] initWithSignature:"System.Collections.Generic.IList`1<System.Collections.ObjectModel.Collection`1/T>" withNumArgs:1, [p1 monoRTInvokeArg]];
+	System_Collections_ObjectModel_ReadOnlyCollectionA1 * object = [[self alloc] initWithSignature:"System.Collections.Generic.IList`1<System.Collections.ObjectModel.ReadOnlyCollection`1/T>" withNumArgs:1, [p1 monoRTInvokeArg]];
 	return object;
 }
 
@@ -70,22 +70,7 @@
 	return [System_Object bestObjectWithMonoObject:monoObject];
 }
 
-- (void)set_Item_withIndex:(int32_t)p1 value:(System_Object *)p2
-{
-	[self invokeMonoMethod:"set_Item(int,<_T_0>)" withNumArgs:2, DB_VALUE(p1), [p2 monoRTInvokeArg]];
-}
-
-- (void)add_withItem:(System_Object *)p1
-{
-	[self invokeMonoMethod:"Add(<_T_0>)" withNumArgs:1, [p1 monoRTInvokeArg]];
-}
-
-- (void)clear
-{
-	[self invokeMonoMethod:"Clear()" withNumArgs:0];
-}
-
-- (BOOL)contains_withItem:(System_Object *)p1
+- (BOOL)contains_withValue:(System_Object *)p1
 {
 	MonoObject *monoObject = [self invokeMonoMethod:"Contains(<_T_0>)" withNumArgs:1, [p1 monoRTInvokeArg]];
 	return DB_UNBOX_BOOLEAN(monoObject);
@@ -102,26 +87,10 @@
 	return [System_Collections_Generic_IEnumeratorA1 bestObjectWithMonoObject:monoObject];
 }
 
-- (int32_t)indexOf_withItem:(System_Object *)p1
+- (int32_t)indexOf_withValue:(System_Object *)p1
 {
 	MonoObject *monoObject = [self invokeMonoMethod:"IndexOf(<_T_0>)" withNumArgs:1, [p1 monoRTInvokeArg]];
 	return DB_UNBOX_INT32(monoObject);
-}
-
-- (void)insert_withIndex:(int32_t)p1 item:(System_Object *)p2
-{
-	[self invokeMonoMethod:"Insert(int,<_T_0>)" withNumArgs:2, DB_VALUE(p1), [p2 monoRTInvokeArg]];
-}
-
-- (BOOL)remove_withItem:(System_Object *)p1
-{
-	MonoObject *monoObject = [self invokeMonoMethod:"Remove(<_T_0>)" withNumArgs:1, [p1 monoRTInvokeArg]];
-	return DB_UNBOX_BOOLEAN(monoObject);
-}
-
-- (void)removeAt_withIndex:(int32_t)p1
-{
-	[self invokeMonoMethod:"RemoveAt(int)" withNumArgs:1, DB_VALUE(p1)];
 }
 
 #pragma mark -

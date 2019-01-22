@@ -170,7 +170,11 @@
 #pragma mark -
 #pragma mark Methods
 
-/* Skipped method : System.Collections.ObjectModel.ReadOnlyCollection`1<System.Array+T> AsReadOnly(T[] array) */
++ (System_Collections_ObjectModel_ReadOnlyCollectionA1 *)asReadOnly_withArray:(System_Array *)p1 typeParameter:(id)typeParameter
+{
+	MonoObject *monoObject = [self invokeMonoClassMethod:"AsReadOnly(T[])" withNumArgs:1, [p1 monoRTInvokeArg]];
+	return [System_Collections_ObjectModel_ReadOnlyCollectionA1 bestObjectWithMonoObject:monoObject];
+}
 
 + (int32_t)binarySearch_withArraySArray:(System_Array *)p1 valueObject:(System_Object *)p2
 {

@@ -1,6 +1,6 @@
-﻿//++Dubrovnik.CodeGenerator System_Collections_ObjectModel_CollectionA1.h
+﻿//++Dubrovnik.CodeGenerator System_Collections_ObjectModel_ReadOnlyCollectionA1.h
 //
-// Managed class : Collection`1<T>
+// Managed class : ReadOnlyCollection`1<T>
 //
 //
 // Frameworks
@@ -10,8 +10,8 @@
 //
 // Optional extra import. Not auto generated. Add manually to project only if required.
 //
-#if __has_include("System_Collections_ObjectModel_CollectionA1.__Extra__.h")
-#import "System_Collections_ObjectModel_CollectionA1.__Extra__.h"
+#if __has_include("System_Collections_ObjectModel_ReadOnlyCollectionA1.__Extra__.h")
+#import "System_Collections_ObjectModel_ReadOnlyCollectionA1.__Extra__.h"
 #endif
 
 //
@@ -27,7 +27,7 @@
 @class System_Collections_Generic_IReadOnlyListA1;
 @class System_Collections_IEnumerable;
 @class System_Collections_IList;
-@class System_Collections_ObjectModel_CollectionA1;
+@class System_Collections_ObjectModel_ReadOnlyCollectionA1;
 @class System_Int32;
 @class System_Object;
 @class System_Void;
@@ -54,7 +54,7 @@
 #import "System_Collections_IList_Protocol.h"
 #import "System_Object.h"
 
-@interface System_Collections_ObjectModel_CollectionA1 : System_Object <System_Collections_Generic_IListA1_, System_Collections_Generic_ICollectionA1_, System_Collections_Generic_IEnumerableA1_, System_Collections_IEnumerable_, System_Collections_IList_, System_Collections_Generic_IReadOnlyListA1_, System_Collections_Generic_IReadOnlyCollectionA1_>
+@interface System_Collections_ObjectModel_ReadOnlyCollectionA1 : System_Object <System_Collections_Generic_IListA1_, System_Collections_Generic_ICollectionA1_, System_Collections_Generic_IEnumerableA1_, System_Collections_IEnumerable_, System_Collections_IList_, System_Collections_Generic_IReadOnlyListA1_, System_Collections_Generic_IReadOnlyCollectionA1_>
 
 #pragma mark -
 #pragma mark Setup
@@ -72,13 +72,13 @@
    .ctor
 
  Params
-   System.Collections.Generic.IList`1<System.Collections.ObjectModel.Collection`1+T>
+   System.Collections.Generic.IList`1<System.Collections.ObjectModel.ReadOnlyCollection`1+T>
 
  Return
-   System.Collections.ObjectModel.Collection`1<System.Collections.ObjectModel.Collection`1+T>
+   System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.ObjectModel.ReadOnlyCollection`1+T>
  @/textblock
 */
-+ (System_Collections_ObjectModel_CollectionA1 *)new_withList:(id <System_Collections_Generic_IListA1_>)p1;
++ (System_Collections_ObjectModel_ReadOnlyCollectionA1 *)new_withList:(id <System_Collections_Generic_IListA1_>)p1;
 
 #pragma mark -
 #pragma mark Properties
@@ -108,7 +108,7 @@
    System.Int32
 
  Return
-   <System.Collections.ObjectModel.Collection`1+T>
+   <System.Collections.ObjectModel.ReadOnlyCollection`1+T>
  @/textblock
 */
 - (System_Object *)get_Item_withIndex:(int32_t)p1;
@@ -117,62 +117,16 @@
  Managed method.
  @textblock
  Name
-   set_Item
-
- Params
-   System.Int32
-   <System.Collections.ObjectModel.Collection`1+T>
-
- Return
-   System.Void
- @/textblock
-*/
-- (void)set_Item_withIndex:(int32_t)p1 value:(System_Object *)p2;
-
-/**
- Managed method.
- @textblock
- Name
-   Add
-
- Params
-   <System.Collections.ObjectModel.Collection`1+T>
-
- Return
-   System.Void
- @/textblock
-*/
-- (void)add_withItem:(System_Object *)p1;
-
-/**
- Managed method.
- @textblock
- Name
-   Clear
-
- Params
-   (none)
-
- Return
-   System.Void
- @/textblock
-*/
-- (void)clear;
-
-/**
- Managed method.
- @textblock
- Name
    Contains
 
  Params
-   <System.Collections.ObjectModel.Collection`1+T>
+   <System.Collections.ObjectModel.ReadOnlyCollection`1+T>
 
  Return
    System.Boolean
  @/textblock
 */
-- (BOOL)contains_withItem:(System_Object *)p1;
+- (BOOL)contains_withValue:(System_Object *)p1;
 
 /**
  Managed method.
@@ -200,7 +154,7 @@
    (none)
 
  Return
-   System.Collections.Generic.IEnumerator`1<System.Collections.ObjectModel.Collection`1+T>
+   System.Collections.Generic.IEnumerator`1<System.Collections.ObjectModel.ReadOnlyCollection`1+T>
  @/textblock
 */
 - (id <System_Collections_Generic_IEnumeratorA1>)getEnumerator;
@@ -212,58 +166,12 @@
    IndexOf
 
  Params
-   <System.Collections.ObjectModel.Collection`1+T>
+   <System.Collections.ObjectModel.ReadOnlyCollection`1+T>
 
  Return
    System.Int32
  @/textblock
 */
-- (int32_t)indexOf_withItem:(System_Object *)p1;
-
-/**
- Managed method.
- @textblock
- Name
-   Insert
-
- Params
-   System.Int32
-   <System.Collections.ObjectModel.Collection`1+T>
-
- Return
-   System.Void
- @/textblock
-*/
-- (void)insert_withIndex:(int32_t)p1 item:(System_Object *)p2;
-
-/**
- Managed method.
- @textblock
- Name
-   Remove
-
- Params
-   <System.Collections.ObjectModel.Collection`1+T>
-
- Return
-   System.Boolean
- @/textblock
-*/
-- (BOOL)remove_withItem:(System_Object *)p1;
-
-/**
- Managed method.
- @textblock
- Name
-   RemoveAt
-
- Params
-   System.Int32
-
- Return
-   System.Void
- @/textblock
-*/
-- (void)removeAt_withIndex:(int32_t)p1;
+- (int32_t)indexOf_withValue:(System_Object *)p1;
 @end
 //--Dubrovnik.CodeGenerator

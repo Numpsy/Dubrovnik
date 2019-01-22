@@ -125,7 +125,11 @@
 	[self invokeMonoMethod:"AddRange(System.Collections.Generic.IEnumerable`1<System.Collections.Generic.List`1/T>)" withNumArgs:1, [p1 monoRTInvokeArg]];
 }
 
-/* Skipped method : System.Collections.ObjectModel.ReadOnlyCollection`1<System.Collections.Generic.List`1+T> AsReadOnly() */
+- (System_Collections_ObjectModel_ReadOnlyCollectionA1 *)asReadOnly
+{
+	MonoObject *monoObject = [self invokeMonoMethod:"AsReadOnly()" withNumArgs:0];
+	return [System_Collections_ObjectModel_ReadOnlyCollectionA1 bestObjectWithMonoObject:monoObject];
+}
 
 - (int32_t)binarySearch_withIndex:(int32_t)p1 count:(int32_t)p2 item:(System_Object *)p3 comparer:(id <System_Collections_Generic_IComparerA1_>)p4
 {

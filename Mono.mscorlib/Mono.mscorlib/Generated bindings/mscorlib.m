@@ -9,7 +9,7 @@
 // http://github.com/ThesaurusSoftware/Dubrovnik
 // This code has dependencies on the above project.
 //
-// Date:     12/31/2018 8:21:50 PM
+// Date:     22/01/2019 14:56:40
 //
 // Assembly: mscorlib
 // Fullname: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
@@ -68,6 +68,10 @@ Assembly type imports
 // Dubrovnik.CodeGenerator made System_Collections_Generic_IDictionaryA2.m
 // Dubrovnik.CodeGenerator made System_Collections_Generic_IEnumerableA1.m
 // Dubrovnik.CodeGenerator made System_Collections_Generic_IEnumeratorA1.m
+// Dubrovnik.CodeGenerator made System_Collections_Generic_IListA1.m
+// Dubrovnik.CodeGenerator made System_Collections_Generic_IReadOnlyCollectionA1.m
+// Dubrovnik.CodeGenerator made System_Collections_Generic_IReadOnlyDictionaryA2.m
+// Dubrovnik.CodeGenerator made System_Collections_Generic_IReadOnlyListA1.m
 // Dubrovnik.CodeGenerator made System_Collections_Generic_KeyValuePairA2.m
 // Dubrovnik.CodeGenerator made System_Collections_Generic_ListA1__Enumerator.m
 // Dubrovnik.CodeGenerator made System_Collections_Generic_ListA1.m
@@ -75,6 +79,11 @@ Assembly type imports
 // Dubrovnik.CodeGenerator made System_Collections_IEnumerator.m
 // Dubrovnik.CodeGenerator made System_Collections_IList.m
 // Dubrovnik.CodeGenerator made System_Collections_ObjectModel_CollectionA1.m
+// Dubrovnik.CodeGenerator made System_Collections_ObjectModel_ReadOnlyCollectionA1.m
+// Dubrovnik.CodeGenerator made System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.m
+// Dubrovnik.CodeGenerator made System_Collections_ObjectModel_ReadOnlyDictionaryA2.m
+// Dubrovnik.CodeGenerator made System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.m
+// Dubrovnik.CodeGenerator made System_Collections_ReadOnlyCollectionBase.m
 // Dubrovnik.CodeGenerator made System_Convert.m
 // Dubrovnik.CodeGenerator made System_CrossAppDomainDelegate.m
 // Dubrovnik.CodeGenerator made System_DateTime.m
@@ -108,8 +117,17 @@ Assembly type imports
 // Dubrovnik.CodeGenerator made System_Int32.m
 // Dubrovnik.CodeGenerator made System_Int64.m
 // Dubrovnik.CodeGenerator made System_IntPtr.m
+// Dubrovnik.CodeGenerator made System_IO_File.m
+// Dubrovnik.CodeGenerator made System_IO_FileAccess.m
 // Dubrovnik.CodeGenerator made System_IO_FileAttributes.m
 // Dubrovnik.CodeGenerator made System_IO_FileInfo.m
+// Dubrovnik.CodeGenerator made System_IO_FileLoadException.m
+// Dubrovnik.CodeGenerator made System_IO_FileMode.m
+// Dubrovnik.CodeGenerator made System_IO_FileNotFoundException.m
+// Dubrovnik.CodeGenerator made System_IO_FileOptions.m
+// Dubrovnik.CodeGenerator made System_IO_FileShare.m
+// Dubrovnik.CodeGenerator made System_IO_FileStream.m
+// Dubrovnik.CodeGenerator made System_IO_FileSystemInfo.m
 // Dubrovnik.CodeGenerator made System_IO_Stream.m
 // Dubrovnik.CodeGenerator made System_IO_StringReader.m
 // Dubrovnik.CodeGenerator made System_IO_StringWriter.m

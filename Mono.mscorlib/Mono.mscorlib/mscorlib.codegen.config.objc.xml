@@ -93,10 +93,10 @@
 		<string>System.Collections.Generic.IEnumerable`1</string>
 		<string>System.Collections.Generic.IEnumerator`1</string>
 		<string>System.Collections.Generic.IEqualityComparer`1</string>
-		<string>System.Collections.Generic.IList`1</string>
-		<string>System.Collections.Generic.IReadOnlyCollection`1</string>
-		<string>System.Collections.Generic.IReadOnlyDictionary`2</string>
-		<string>System.Collections.Generic.IReadOnlyList`1</string>
+    <string>System.Collections.Generic.IList`1</string>
+    <string>System.Collections.Generic.IReadOnlyCollection`1</string>
+    <string>System.Collections.Generic.IReadOnlyDictionary`2</string>
+    <string>System.Collections.Generic.IReadOnlyList`1</string>
 		<string>System.Collections.Generic.KeyNotFoundException</string>
 		<string>System.Collections.Generic.KeyValuePair`2</string>
 		<string>System.Collections.Generic.List`1</string>
@@ -112,12 +112,12 @@
 		<string>System.Collections.IList</string>
 		<string>System.Collections.IStructuralComparable</string>
 		<string>System.Collections.IStructuralEquatable</string>
-		<string>System.Collections.ObjectModel.Collection`1</string>
-		<string>System.Collections.ObjectModel.KeyedCollection`2</string>
-		<string>System.Collections.ObjectModel.ReadOnlyCollection`1</string>
-		<string>System.Collections.ObjectModel.ReadOnlyDictionary`2</string>
-		<string>System.Collections.Queue</string>
-		<string>System.Collections.ReadOnlyCollectionBase</string>
+    <string>System.Collections.ObjectModel.Collection`1</string>
+    <string>System.Collections.ObjectModel.KeyedCollection`2</string>
+    <string>System.Collections.ObjectModel.ReadOnlyCollection`1</string>
+    <string>System.Collections.ObjectModel.ReadOnlyDictionary`2</string>
+    <string>System.Collections.Queue</string>
+    <string>System.Collections.ReadOnlyCollectionBase</string>
 		<string>System.Collections.SortedList</string>
 		<string>System.Collections.Stack</string>
 		<string>System.Collections.StructuralComparisons</string>
@@ -325,17 +325,17 @@
 		<string>System.IO.DriveNotFoundException</string>
 		<string>System.IO.DriveType</string>
 		<string>System.IO.EndOfStreamException</string>
-		<string>System.IO.File</string>
-		<string>System.IO.FileAccess</string>
-		<string>System.IO.FileAttributes</string>
-		<string>System.IO.FileInfo</string>
-		<string>System.IO.FileLoadException</string>
-		<string>System.IO.FileMode</string>
-		<string>System.IO.FileNotFoundException</string>
-		<string>System.IO.FileOptions</string>
-		<string>System.IO.FileShare</string>
-		<string>System.IO.FileStream</string>
-		<string>System.IO.FileSystemInfo</string>
+    <string>System.IO.File</string>
+    <string>System.IO.FileAccess</string>
+    <string>System.IO.FileAttributes</string>
+    <string>System.IO.FileInfo</string>
+    <string>System.IO.FileLoadException</string>
+    <string>System.IO.FileMode</string>
+    <string>System.IO.FileNotFoundException</string>
+    <string>System.IO.FileOptions</string>
+    <string>System.IO.FileShare</string>
+    <string>System.IO.FileStream</string>
+    <string>System.IO.FileSystemInfo</string>
 		<string>System.IO.IOException</string>
 		<string>System.IO.IsolatedStorage.INormalizeForIsolatedStorage</string>
 		<string>System.IO.IsolatedStorage.IsolatedStorage</string>
@@ -1565,12 +1565,19 @@
 		<string>System.Collections.Generic.IDictionary`2</string>
 		<string>System.Collections.Generic.IEnumerable`1</string>
 		<string>System.Collections.Generic.IEnumerator`1</string>
+		<string>System.Collections.Generic.IList`1</string>
+		<string>System.Collections.Generic.IReadOnlyCollection`1</string>
+		<string>System.Collections.Generic.IReadOnlyDictionary`2</string>
+		<string>System.Collections.Generic.IReadOnlyList`1</string>
 		<string>System.Collections.Generic.KeyValuePair`2</string>
 		<string>System.Collections.Generic.List`1</string>
 		<string>System.Collections.IEnumerable</string>
 		<string>System.Collections.IEnumerator</string>
 		<string>System.Collections.IList</string>
 		<string>System.Collections.ObjectModel.Collection`1</string>
+		<string>System.Collections.ObjectModel.ReadOnlyCollection`1</string>
+		<string>System.Collections.ObjectModel.ReadOnlyDictionary`2</string>
+		<string>System.Collections.ReadOnlyCollectionBase</string>
 		<string>System.Convert</string>
 		<string>System.CrossAppDomainDelegate</string>
 		<string>System.DateTime</string>
@@ -1604,8 +1611,17 @@
 		<string>System.Int32</string>
 		<string>System.Int64</string>
 		<string>System.IntPtr</string>
+		<string>System.IO.File</string>
+		<string>System.IO.FileAccess</string>
 		<string>System.IO.FileAttributes</string>
 		<string>System.IO.FileInfo</string>
+		<string>System.IO.FileLoadException</string>
+		<string>System.IO.FileMode</string>
+		<string>System.IO.FileNotFoundException</string>
+		<string>System.IO.FileOptions</string>
+		<string>System.IO.FileShare</string>
+		<string>System.IO.FileStream</string>
+		<string>System.IO.FileSystemInfo</string>
 		<string>System.IO.Stream</string>
 		<string>System.IO.StringReader</string>
 		<string>System.IO.StringWriter</string>

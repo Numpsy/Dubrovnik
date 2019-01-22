@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		538329D221F76A360055A004 /* System_IO_FileSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329C421F76A340055A004 /* System_IO_FileSystemInfo.m */; };
+		538329D321F76A360055A004 /* System_IO_FileShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329C521F76A350055A004 /* System_IO_FileShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329D421F76A360055A004 /* System_IO_FileLoadException.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329C621F76A350055A004 /* System_IO_FileLoadException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329D521F76A360055A004 /* System_IO_FileMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329C721F76A350055A004 /* System_IO_FileMode.m */; };
+		538329D621F76A360055A004 /* System_IO_FileShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329C821F76A350055A004 /* System_IO_FileShare.m */; };
+		538329D721F76A360055A004 /* System_IO_FileSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329C921F76A350055A004 /* System_IO_FileSystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329D821F76A360055A004 /* System_IO_FileOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329CA21F76A350055A004 /* System_IO_FileOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329D921F76A360055A004 /* System_IO_FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329CB21F76A350055A004 /* System_IO_FileStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329DA21F76A360055A004 /* System_IO_FileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329CC21F76A350055A004 /* System_IO_FileStream.m */; };
+		538329DB21F76A360055A004 /* System_IO_FileOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329CD21F76A350055A004 /* System_IO_FileOptions.m */; };
+		538329DC21F76A360055A004 /* System_IO_FileNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329CE21F76A350055A004 /* System_IO_FileNotFoundException.m */; };
+		538329DD21F76A360055A004 /* System_IO_FileNotFoundException.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329CF21F76A360055A004 /* System_IO_FileNotFoundException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329DE21F76A360055A004 /* System_IO_FileLoadException.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329D021F76A360055A004 /* System_IO_FileLoadException.m */; };
+		538329DF21F76A360055A004 /* System_IO_FileMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329D121F76A360055A004 /* System_IO_FileMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329EE21F76A450055A004 /* System_Collections_ReadOnlyCollectionBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329E021F76A440055A004 /* System_Collections_ReadOnlyCollectionBase.m */; };
+		538329EF21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329E121F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329F021F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329E221F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.m */; };
+		538329F121F76A450055A004 /* System_IO_File.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329E321F76A440055A004 /* System_IO_File.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329F221F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329E421F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329F321F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329E521F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.m */; };
+		538329F421F76A450055A004 /* System_IO_FileAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329E621F76A440055A004 /* System_IO_FileAccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329F521F76A450055A004 /* System_Collections_ReadOnlyCollectionBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329E721F76A440055A004 /* System_Collections_ReadOnlyCollectionBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329F621F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329E821F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329F721F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329E921F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538329F821F76A450055A004 /* System_IO_FileAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329EA21F76A450055A004 /* System_IO_FileAccess.m */; };
+		538329F921F76A450055A004 /* System_IO_File.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329EB21F76A450055A004 /* System_IO_File.m */; };
+		538329FA21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329EC21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.m */; };
+		538329FB21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329ED21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.m */; };
+		53832A0821F76A510055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329FC21F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53832A0921F76A510055A004 /* System_Collections_Generic_IListA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329FD21F76A500055A004 /* System_Collections_Generic_IListA1.m */; };
+		53832A0A21F76A510055A004 /* System_Collections_Generic_IReadOnlyCollectionA1_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 538329FE21F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53832A0B21F76A510055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 538329FF21F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.m */; };
+		53832A0C21F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1.h in Headers */ = {isa = PBXBuildFile; fileRef = 53832A0021F76A500055A004 /* System_Collections_Generic_IReadOnlyListA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53832A0D21F76A510055A004 /* System_Collections_Generic_IListA1.h in Headers */ = {isa = PBXBuildFile; fileRef = 53832A0121F76A500055A004 /* System_Collections_Generic_IListA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53832A0E21F76A510055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.h in Headers */ = {isa = PBXBuildFile; fileRef = 53832A0221F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53832A0F21F76A510055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.h in Headers */ = {isa = PBXBuildFile; fileRef = 53832A0321F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53832A1021F76A510055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 53832A0421F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.m */; };
+		53832A1121F76A510055A004 /* System_Collections_Generic_IListA1_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 53832A0521F76A510055A004 /* System_Collections_Generic_IListA1_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53832A1221F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 53832A0621F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53832A1321F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 53832A0721F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1.m */; };
 		AB24600720F4F62D00D1C09E /* System_Byte+mscorlib.h in Headers */ = {isa = PBXBuildFile; fileRef = AB24600520F4F62D00D1C09E /* System_Byte+mscorlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB24600820F4F62D00D1C09E /* System_Byte+mscorlib.m in Sources */ = {isa = PBXBuildFile; fileRef = AB24600620F4F62D00D1C09E /* System_Byte+mscorlib.m */; };
 		AB24600B20F4F82100D1C09E /* System_SByte+mscorlib.h in Headers */ = {isa = PBXBuildFile; fileRef = AB24600920F4F82100D1C09E /* System_SByte+mscorlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -394,6 +434,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		538329C421F76A340055A004 /* System_IO_FileSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_FileSystemInfo.m; sourceTree = "<group>"; };
+		538329C521F76A350055A004 /* System_IO_FileShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_FileShare.h; sourceTree = "<group>"; };
+		538329C621F76A350055A004 /* System_IO_FileLoadException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_FileLoadException.h; sourceTree = "<group>"; };
+		538329C721F76A350055A004 /* System_IO_FileMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_FileMode.m; sourceTree = "<group>"; };
+		538329C821F76A350055A004 /* System_IO_FileShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_FileShare.m; sourceTree = "<group>"; };
+		538329C921F76A350055A004 /* System_IO_FileSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_FileSystemInfo.h; sourceTree = "<group>"; };
+		538329CA21F76A350055A004 /* System_IO_FileOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_FileOptions.h; sourceTree = "<group>"; };
+		538329CB21F76A350055A004 /* System_IO_FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_FileStream.h; sourceTree = "<group>"; };
+		538329CC21F76A350055A004 /* System_IO_FileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_FileStream.m; sourceTree = "<group>"; };
+		538329CD21F76A350055A004 /* System_IO_FileOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_FileOptions.m; sourceTree = "<group>"; };
+		538329CE21F76A350055A004 /* System_IO_FileNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_FileNotFoundException.m; sourceTree = "<group>"; };
+		538329CF21F76A360055A004 /* System_IO_FileNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_FileNotFoundException.h; sourceTree = "<group>"; };
+		538329D021F76A360055A004 /* System_IO_FileLoadException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_FileLoadException.m; sourceTree = "<group>"; };
+		538329D121F76A360055A004 /* System_IO_FileMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_FileMode.h; sourceTree = "<group>"; };
+		538329E021F76A440055A004 /* System_Collections_ReadOnlyCollectionBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_ReadOnlyCollectionBase.m; sourceTree = "<group>"; };
+		538329E121F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.h; sourceTree = "<group>"; };
+		538329E221F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.m; sourceTree = "<group>"; };
+		538329E321F76A440055A004 /* System_IO_File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_File.h; sourceTree = "<group>"; };
+		538329E421F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_ObjectModel_ReadOnlyDictionaryA2.h; sourceTree = "<group>"; };
+		538329E521F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_ObjectModel_ReadOnlyDictionaryA2.m; sourceTree = "<group>"; };
+		538329E621F76A440055A004 /* System_IO_FileAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_IO_FileAccess.h; sourceTree = "<group>"; };
+		538329E721F76A440055A004 /* System_Collections_ReadOnlyCollectionBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_ReadOnlyCollectionBase.h; sourceTree = "<group>"; };
+		538329E821F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_ObjectModel_ReadOnlyCollectionA1.h; sourceTree = "<group>"; };
+		538329E921F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.h; sourceTree = "<group>"; };
+		538329EA21F76A450055A004 /* System_IO_FileAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_FileAccess.m; sourceTree = "<group>"; };
+		538329EB21F76A450055A004 /* System_IO_File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_IO_File.m; sourceTree = "<group>"; };
+		538329EC21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.m; sourceTree = "<group>"; };
+		538329ED21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_ObjectModel_ReadOnlyCollectionA1.m; sourceTree = "<group>"; };
+		538329FC21F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_Generic_IReadOnlyDictionaryA2_Protocol.h; sourceTree = "<group>"; };
+		538329FD21F76A500055A004 /* System_Collections_Generic_IListA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_Generic_IListA1.m; sourceTree = "<group>"; };
+		538329FE21F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_Generic_IReadOnlyCollectionA1_Protocol.h; sourceTree = "<group>"; };
+		538329FF21F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_Generic_IReadOnlyDictionaryA2.m; sourceTree = "<group>"; };
+		53832A0021F76A500055A004 /* System_Collections_Generic_IReadOnlyListA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_Generic_IReadOnlyListA1.h; sourceTree = "<group>"; };
+		53832A0121F76A500055A004 /* System_Collections_Generic_IListA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_Generic_IListA1.h; sourceTree = "<group>"; };
+		53832A0221F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_Generic_IReadOnlyDictionaryA2.h; sourceTree = "<group>"; };
+		53832A0321F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_Generic_IReadOnlyCollectionA1.h; sourceTree = "<group>"; };
+		53832A0421F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_Generic_IReadOnlyCollectionA1.m; sourceTree = "<group>"; };
+		53832A0521F76A510055A004 /* System_Collections_Generic_IListA1_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_Generic_IListA1_Protocol.h; sourceTree = "<group>"; };
+		53832A0621F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System_Collections_Generic_IReadOnlyListA1_Protocol.h; sourceTree = "<group>"; };
+		53832A0721F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System_Collections_Generic_IReadOnlyListA1.m; sourceTree = "<group>"; };
 		AB24600520F4F62D00D1C09E /* System_Byte+mscorlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "System_Byte+mscorlib.h"; sourceTree = "<group>"; };
 		AB24600620F4F62D00D1C09E /* System_Byte+mscorlib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "System_Byte+mscorlib.m"; sourceTree = "<group>"; };
 		AB24600920F4F82100D1C09E /* System_SByte+mscorlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "System_SByte+mscorlib.h"; sourceTree = "<group>"; };
@@ -827,6 +907,46 @@
 		AB4CDBCE1FFBF4FE0096326D /* Generated bindings */ = {
 			isa = PBXGroup;
 			children = (
+				53832A0521F76A510055A004 /* System_Collections_Generic_IListA1_Protocol.h */,
+				53832A0121F76A500055A004 /* System_Collections_Generic_IListA1.h */,
+				538329FD21F76A500055A004 /* System_Collections_Generic_IListA1.m */,
+				538329FE21F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1_Protocol.h */,
+				53832A0321F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.h */,
+				53832A0421F76A500055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.m */,
+				538329FC21F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2_Protocol.h */,
+				53832A0221F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.h */,
+				538329FF21F76A500055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.m */,
+				53832A0621F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1_Protocol.h */,
+				53832A0021F76A500055A004 /* System_Collections_Generic_IReadOnlyListA1.h */,
+				53832A0721F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1.m */,
+				538329E821F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.h */,
+				538329ED21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.m */,
+				538329E921F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.h */,
+				538329EC21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.m */,
+				538329E121F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.h */,
+				538329E221F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.m */,
+				538329E421F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.h */,
+				538329E521F76A440055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.m */,
+				538329E721F76A440055A004 /* System_Collections_ReadOnlyCollectionBase.h */,
+				538329E021F76A440055A004 /* System_Collections_ReadOnlyCollectionBase.m */,
+				538329E321F76A440055A004 /* System_IO_File.h */,
+				538329EB21F76A450055A004 /* System_IO_File.m */,
+				538329E621F76A440055A004 /* System_IO_FileAccess.h */,
+				538329EA21F76A450055A004 /* System_IO_FileAccess.m */,
+				538329C621F76A350055A004 /* System_IO_FileLoadException.h */,
+				538329D021F76A360055A004 /* System_IO_FileLoadException.m */,
+				538329D121F76A360055A004 /* System_IO_FileMode.h */,
+				538329C721F76A350055A004 /* System_IO_FileMode.m */,
+				538329CF21F76A360055A004 /* System_IO_FileNotFoundException.h */,
+				538329CE21F76A350055A004 /* System_IO_FileNotFoundException.m */,
+				538329CA21F76A350055A004 /* System_IO_FileOptions.h */,
+				538329CD21F76A350055A004 /* System_IO_FileOptions.m */,
+				538329C521F76A350055A004 /* System_IO_FileShare.h */,
+				538329C821F76A350055A004 /* System_IO_FileShare.m */,
+				538329CB21F76A350055A004 /* System_IO_FileStream.h */,
+				538329CC21F76A350055A004 /* System_IO_FileStream.m */,
+				538329C921F76A350055A004 /* System_IO_FileSystemInfo.h */,
+				538329C421F76A340055A004 /* System_IO_FileSystemInfo.m */,
 				AB35EBF921DAB38B009CC602 /* System_Runtime_Remoting_Lifetime_ClientSponsor.h */,
 				AB35EBF121DAB38A009CC602 /* System_Runtime_Remoting_Lifetime_ClientSponsor.m */,
 				AB35EBF721DAB38B009CC602 /* System_Runtime_Remoting_Lifetime_ILease_Protocol.h */,
@@ -1314,6 +1434,7 @@
 				AB512B9620D062510078F747 /* System_Collections_IList.h in Headers */,
 				AB512B7720D062510078F747 /* System_Text_Encoding.h in Headers */,
 				AB512B7020D062510078F747 /* System_Reflection_GenericParameterAttributes.h in Headers */,
+				538329F121F76A450055A004 /* System_IO_File.h in Headers */,
 				AB24602320F4FAB400D1C09E /* System_UInt32+mscorlib.h in Headers */,
 				AB512BCD20D062510078F747 /* System_Reflection_Assembly.h in Headers */,
 				AB512BA520D062510078F747 /* System_Array.h in Headers */,
@@ -1332,14 +1453,21 @@
 				AB2F9E2421DBE34A00A28C5C /* NSDecimalNumber+mscorlib.h in Headers */,
 				AB512B6E20D062510078F747 /* System_Reflection_MethodInfo.h in Headers */,
 				AB5B149021C27AAF003710A8 /* System_ActionA7.h in Headers */,
+				538329D921F76A360055A004 /* System_IO_FileStream.h in Headers */,
 				AB512B1E20D062510078F747 /* System_Threading_Tasks_Task.h in Headers */,
 				AB512BC220D062510078F747 /* System_Guid.h in Headers */,
 				AB512B3120D062510078F747 /* System_Attribute.h in Headers */,
+				53832A0821F76A510055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2_Protocol.h in Headers */,
+				538329DD21F76A360055A004 /* System_IO_FileNotFoundException.h in Headers */,
 				AB512BD920D062510078F747 /* System_TimeZoneInfo.h in Headers */,
 				AB512BD620D062510078F747 /* System_DateTime.h in Headers */,
+				53832A0D21F76A510055A004 /* System_Collections_Generic_IListA1.h in Headers */,
+				538329EF21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.h in Headers */,
 				AB512B5A20D062510078F747 /* System_UnhandledExceptionEventArgs.h in Headers */,
 				AB512BC520D062510078F747 /* System_MulticastDelegate.h in Headers */,
+				538329F521F76A450055A004 /* System_Collections_ReadOnlyCollectionBase.h in Headers */,
 				AB512B7D20D062510078F747 /* System_Collections_Generic_ListA1.h in Headers */,
+				538329D821F76A360055A004 /* System_IO_FileOptions.h in Headers */,
 				AB512B2D20D062510078F747 /* System_Reflection_MethodBase.h in Headers */,
 				AB512BE020D062520078F747 /* System_TimeSpan.h in Headers */,
 				AB512B1320D062510078F747 /* System_Reflection_Binder.h in Headers */,
@@ -1347,6 +1475,7 @@
 				AB512BA120D062510078F747 /* System_Reflection_ConstructorInfo.h in Headers */,
 				AB5B149221C27AAF003710A8 /* System_FuncA7.h in Headers */,
 				AB512B9D20D062510078F747 /* System_Int16.h in Headers */,
+				53832A1221F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1_Protocol.h in Headers */,
 				AB512B4320D062510078F747 /* System_Collections_Generic_IDictionaryA2.h in Headers */,
 				AB512B7F20D062510078F747 /* System_UInt64.h in Headers */,
 				AB342C0F20E67A0700CA1659 /* System_Boolean+mscorlib.h in Headers */,
@@ -1373,6 +1502,7 @@
 				AB512BAE20D062510078F747 /* System_Collections_IList_Protocol.h in Headers */,
 				AB24601720F4F94100D1C09E /* System_Double+mscorlib.h in Headers */,
 				AB512B4720D062510078F747 /* System_Collections_IEnumerator_Protocol.h in Headers */,
+				538329D421F76A360055A004 /* System_IO_FileLoadException.h in Headers */,
 				AB512B7A20D062510078F747 /* System_UInt32.h in Headers */,
 				AB512B5720D062510078F747 /* System_Collections_Generic_IEnumerableA1.h in Headers */,
 				AB512BCF20D062510078F747 /* System_DBNull.h in Headers */,
@@ -1385,6 +1515,7 @@
 				AB5B149121C27AAF003710A8 /* System_ActionA4.h in Headers */,
 				AB512B1F20D062510078F747 /* System_Collections_Generic_DictionaryA2__ValueCollection.h in Headers */,
 				AB512B8D20D062510078F747 /* System_Char.h in Headers */,
+				53832A1121F76A510055A004 /* System_Collections_Generic_IListA1_Protocol.h in Headers */,
 				AB512BDA20D062510078F747 /* System_Collections_Generic_IDictionaryA2_Protocol.h in Headers */,
 				AB512B4A20D062510078F747 /* System_Int64.h in Headers */,
 				AB512BD220D062510078F747 /* System_ValueType.h in Headers */,
@@ -1414,6 +1545,7 @@
 				AB512B7920D062510078F747 /* System_Collections_Generic_IComparerA1_Protocol.h in Headers */,
 				AB5B14A221C27AAF003710A8 /* System_ActionA5.h in Headers */,
 				AB512B8320D062510078F747 /* System_Collections_IEnumerator.h in Headers */,
+				538329D321F76A360055A004 /* System_IO_FileShare.h in Headers */,
 				AB512B4C20D062510078F747 /* System_IDisposable_Protocol.h in Headers */,
 				AB512B3E20D062510078F747 /* System_Convert.h in Headers */,
 				AB512B7320D062510078F747 /* System_Runtime_InteropServices__Exception.h in Headers */,
@@ -1425,9 +1557,11 @@
 				AB512BC920D062510078F747 /* System_Collections_Generic_ListA1__Enumerator.h in Headers */,
 				AB512B2920D062510078F747 /* System_Version.h in Headers */,
 				AB24601320F4F8DE00D1C09E /* System_Decimal+mscorlib.h in Headers */,
+				538329F621F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.h in Headers */,
 				AB512BBF20D062510078F747 /* System_Threading_SendOrPostCallback.h in Headers */,
 				AB512BA020D062510078F747 /* System_Collections_Generic_IComparerA1.h in Headers */,
 				AB512B4E20D062510078F747 /* System_IO_FileAttributes.h in Headers */,
+				53832A0F21F76A510055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.h in Headers */,
 				AB512B9020D062510078F747 /* System_Runtime_InteropServices__Exception_Protocol.h in Headers */,
 				AB512B2420D062510078F747 /* System_Collections_Generic_IEnumerableA1_Protocol.h in Headers */,
 				AB512B9A20D062510078F747 /* System_Enum.h in Headers */,
@@ -1438,13 +1572,18 @@
 				AB512BD720D062510078F747 /* System_Collections_ArrayList.h in Headers */,
 				AB512BAA20D062510078F747 /* System_IntPtr.h in Headers */,
 				AB512B5920D062510078F747 /* System_IEquatableA1_Protocol.h in Headers */,
+				538329F721F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.h in Headers */,
+				538329DF21F76A360055A004 /* System_IO_FileMode.h in Headers */,
 				AB24600720F4F62D00D1C09E /* System_Byte+mscorlib.h in Headers */,
 				AB512B8620D062510078F747 /* System_Decimal.h in Headers */,
+				53832A0E21F76A510055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.h in Headers */,
+				538329F421F76A450055A004 /* System_IO_FileAccess.h in Headers */,
 				AB5B149621C27AAF003710A8 /* System_FuncA8.h in Headers */,
 				AB512B5F20D062510078F747 /* System_SByte.h in Headers */,
 				AB5B149521C27AAF003710A8 /* System_FuncA6.h in Headers */,
 				AB512B8C20D062510078F747 /* System_Threading_Tasks_TaskA1.h in Headers */,
 				AB5B149B21C27AAF003710A8 /* System_ActionA3.h in Headers */,
+				538329D721F76A360055A004 /* System_IO_FileSystemInfo.h in Headers */,
 				AB512B3020D062510078F747 /* System_IO_StringWriter.h in Headers */,
 				AB512B4220D062510078F747 /* System_StringComparison.h in Headers */,
 				AB512B3520D062510078F747 /* System_EventArgs.h in Headers */,
@@ -1456,6 +1595,7 @@
 				AB8EE9FE21539EA1005C2E19 /* System_EventHandler.h in Headers */,
 				AB512B1620D062510078F747 /* System_Void.h in Headers */,
 				AB512B2220D062510078F747 /* System_Byte.h in Headers */,
+				53832A0C21F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1.h in Headers */,
 				ABD682C51E69E9DF00D11963 /* System_NullableA1+mscorlib.h in Headers */,
 				AB3884B7204B837A00F35C45 /* System_Double.__Extra__.h in Headers */,
 				AB57FDE91C96DC94003D00E8 /* DBNullableInt32Transformer.h in Headers */,
@@ -1482,9 +1622,11 @@
 				AB348B3821CBC5CF00F07B68 /* System_Runtime_Remoting_RemotingServices.h in Headers */,
 				ABB9F2421DC8D4D300A95896 /* NSDate+mscorlib.h in Headers */,
 				AB5B148C21C27AAF003710A8 /* System_FuncA4.h in Headers */,
+				53832A0A21F76A510055A004 /* System_Collections_Generic_IReadOnlyCollectionA1_Protocol.h in Headers */,
 				ABB8A39618FF09F900213B80 /* System_Array+mscorlib.h in Headers */,
 				ABB8A42818FF15B300213B80 /* System_Collections_Generic_DictionaryA2+mscorlib.h in Headers */,
 				ABB8A39818FF09F900213B80 /* System_Convert+mscorlib.h in Headers */,
+				538329F221F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.h in Headers */,
 				ABB8A41818FF113800213B80 /* System_Object+mscorlib.h in Headers */,
 				ABB8A42C18FF15B300213B80 /* System_Collections_IList+mscorlib.h in Headers */,
 				ABA4F3E32002BEBF00D6597A /* System_Object.h in Headers */,
@@ -1617,9 +1759,11 @@
 			files = (
 				AB512B8E20D062510078F747 /* System_ActionA1.m in Sources */,
 				ABA4F3E42002BEC200D6597A /* System_Object.m in Sources */,
+				538329FA21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__KeyCollection.m in Sources */,
 				AB5B148B21C27AAF003710A8 /* System_FuncA5.m in Sources */,
 				AB512B5020D062510078F747 /* System_Collections_Generic_IDictionaryA2.m in Sources */,
 				AB512BA620D062510078F747 /* System_Reflection_MethodBase.m in Sources */,
+				538329D221F76A360055A004 /* System_IO_FileSystemInfo.m in Sources */,
 				AB8EE9FC21539EA1005C2E19 /* System_EventHandler.m in Sources */,
 				AB512BB120D062510078F747 /* System_Reflection_AssemblyName.m in Sources */,
 				AB512B5120D062510078F747 /* System_Array.m in Sources */,
@@ -1636,10 +1780,13 @@
 				ABB8A3E318FF0FE800213B80 /* NSArray+mscorlib.m in Sources */,
 				AB512BD120D062510078F747 /* System_Type.m in Sources */,
 				AB348B3421CBC5CF00F07B68 /* System_Runtime_Remoting_Proxies_RealProxy.m in Sources */,
+				538329DE21F76A360055A004 /* System_IO_FileLoadException.m in Sources */,
 				AB5B149321C27AAF003710A8 /* System_FuncA4.m in Sources */,
 				AB512BAB20D062510078F747 /* System_Reflection_Binder.m in Sources */,
+				538329D621F76A360055A004 /* System_IO_FileShare.m in Sources */,
 				AB512B8F20D062510078F747 /* System_Decimal.m in Sources */,
 				AB950DE9192AA6720035ABC6 /* DBNullableDateTransformer.m in Sources */,
+				538329DA21F76A360055A004 /* System_IO_FileStream.m in Sources */,
 				AB512B4020D062510078F747 /* System_Char.m in Sources */,
 				ABE229381FD026560096A875 /* NSNull+mscorlib.m in Sources */,
 				ABB8A42718FF15B300213B80 /* System_Collections_ArrayList+mscorlib.m in Sources */,
@@ -1669,6 +1816,7 @@
 				AB512BA920D062510078F747 /* System_DateTime.m in Sources */,
 				AB348B3921CBC5CF00F07B68 /* System_Runtime_Remoting_RemotingTimeoutException.m in Sources */,
 				AB24601C20F4F97500D1C09E /* System_Single+mscorlib.m in Sources */,
+				538329DB21F76A360055A004 /* System_IO_FileOptions.m in Sources */,
 				AB512B9520D062510078F747 /* System_UnhandledExceptionEventHandler.m in Sources */,
 				AB24602820F4FB1000D1C09E /* System_Int64+mscorlib.m in Sources */,
 				AB41D60720D1BA9F009B8274 /* System_Collections_ObjectModel_CollectionA1.m in Sources */,
@@ -1679,12 +1827,14 @@
 				AB24600820F4F62D00D1C09E /* System_Byte+mscorlib.m in Sources */,
 				AB512BC120D062510078F747 /* System_IEquatableA1.m in Sources */,
 				AB512BC620D062510078F747 /* System_Reflection_MemberFilter.m in Sources */,
+				53832A0921F76A510055A004 /* System_Collections_Generic_IListA1.m in Sources */,
 				AB24600C20F4F82100D1C09E /* System_SByte+mscorlib.m in Sources */,
 				AB512B6120D062510078F747 /* System_IO_StringReader.m in Sources */,
 				AB512B8820D062510078F747 /* System_Single.m in Sources */,
 				AB512BAC20D062510078F747 /* System_EventArgs.m in Sources */,
 				AB24601420F4F8DE00D1C09E /* System_Decimal+mscorlib.m in Sources */,
 				AB512B2720D062510078F747 /* System_TimeZoneInfo.m in Sources */,
+				538329F321F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2.m in Sources */,
 				AB5F417E1CE280FB00026E36 /* DBGenericTypeHelper.m in Sources */,
 				ABD682C61E69E9DF00D11963 /* System_NullableA1+mscorlib.m in Sources */,
 				ABB8A37C18FF086200213B80 /* NSString+mscorlib.m in Sources */,
@@ -1718,6 +1868,7 @@
 				AB512B5620D062510078F747 /* System_UInt16.m in Sources */,
 				AB512B5820D062510078F747 /* System_Threading_Tasks_TaskA1.m in Sources */,
 				AB512BC020D062510078F747 /* System_SByte.m in Sources */,
+				538329EE21F76A450055A004 /* System_Collections_ReadOnlyCollectionBase.m in Sources */,
 				ABF9707F1D7369D400B836A0 /* System_Delegate+mscorlib.m in Sources */,
 				AB512BDF20D062520078F747 /* System_Collections_ArrayList.m in Sources */,
 				AB512B4920D062510078F747 /* System_Threading_Tasks_Task.m in Sources */,
@@ -1725,6 +1876,7 @@
 				AB348B3321CBC5CF00F07B68 /* System_Runtime_Remoting_RemotingException.m in Sources */,
 				AB512B4420D062510078F747 /* System_IO_TextReader.m in Sources */,
 				AB512B8120D062510078F747 /* System_FuncA2.m in Sources */,
+				538329F021F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyDictionaryA2__ValueCollection.m in Sources */,
 				AB512B3920D062510078F747 /* System_UnhandledExceptionEventArgs.m in Sources */,
 				AB24602420F4FAB400D1C09E /* System_UInt32+mscorlib.m in Sources */,
 				AB512B4820D062510078F747 /* System_Delegate.m in Sources */,
@@ -1738,6 +1890,7 @@
 				AB512BB920D062510078F747 /* System_Byte.m in Sources */,
 				ABE1354E192AAEED000689BC /* DBNullableDecimalTransformer.m in Sources */,
 				ABB8A39B18FF09F900213B80 /* System_Enum+mscorlib.m in Sources */,
+				538329DC21F76A360055A004 /* System_IO_FileNotFoundException.m in Sources */,
 				AB5B147221C27874003710A8 /* System_CrossAppDomainDelegate.m in Sources */,
 				AB512BDB20D062510078F747 /* System_Collections_Generic_DictionaryA2__ValueCollection__Enumerator.m in Sources */,
 				AB512B9F20D062510078F747 /* System_Version.m in Sources */,
@@ -1745,9 +1898,11 @@
 				AB24601020F4F86C00D1C09E /* System_Char+mscorlib.m in Sources */,
 				AB512BB720D062510078F747 /* System_Attribute.m in Sources */,
 				AB512BBE20D062510078F747 /* System_Activator.m in Sources */,
+				53832A1321F76A510055A004 /* System_Collections_Generic_IReadOnlyListA1.m in Sources */,
 				AB512B1920D062510078F747 /* System_Reflection_ConstructorInfo.m in Sources */,
 				AB5B148D21C27AAF003710A8 /* System_FuncA8.m in Sources */,
 				AB512BAF20D062510078F747 /* System_String.m in Sources */,
+				538329FB21F76A450055A004 /* System_Collections_ObjectModel_ReadOnlyCollectionA1.m in Sources */,
 				AB35EC0421DAB38C009CC602 /* System_Runtime_Remoting_Lifetime_ILease.m in Sources */,
 				AB512B7B20D062510078F747 /* System_TimeZoneInfo__AdjustmentRule.m in Sources */,
 				AB512B2620D062510078F747 /* System_Threading_SendOrPostCallback.m in Sources */,
@@ -1759,7 +1914,9 @@
 				AB5B149A21C27AAF003710A8 /* System_ActionA6.m in Sources */,
 				AB512B6220D062510078F747 /* System_Text_Encoding.m in Sources */,
 				AB512B7820D062510078F747 /* System_DayOfWeek.m in Sources */,
+				53832A1021F76A510055A004 /* System_Collections_Generic_IReadOnlyCollectionA1.m in Sources */,
 				ABCAE54B1AA893C90006453A /* System_Collections_Generic_IEnumerableA1+mscorlib.m in Sources */,
+				538329F821F76A450055A004 /* System_IO_FileAccess.m in Sources */,
 				AB512B9E20D062510078F747 /* System_ICloneable.m in Sources */,
 				AB348B3621CBC5CF00F07B68 /* System_Runtime_Remoting_RemotingServices.m in Sources */,
 				AB512B3720D062510078F747 /* System_Void.m in Sources */,
@@ -1770,12 +1927,15 @@
 				ABE13552192AB0C5000689BC /* DBNullableInt64Transformer.m in Sources */,
 				AB512B9720D062510078F747 /* System_DBNull.m in Sources */,
 				AB512BE520D070860078F747 /* System_FuncA3.m in Sources */,
+				53832A0B21F76A510055A004 /* System_Collections_Generic_IReadOnlyDictionaryA2.m in Sources */,
 				AB512B6520D062510078F747 /* System_Collections_Generic_DictionaryA2__KeyCollection.m in Sources */,
+				538329F921F76A450055A004 /* System_IO_File.m in Sources */,
 				AB512B3820D062510078F747 /* System_Enum.m in Sources */,
 				AB512B3420D062510078F747 /* System_Collections_IEnumerable.m in Sources */,
 				AB24601820F4F94100D1C09E /* System_Double+mscorlib.m in Sources */,
 				AB512BA720D062510078F747 /* System_Convert.m in Sources */,
 				AB512BB420D062510078F747 /* System_Boolean.m in Sources */,
+				538329D521F76A360055A004 /* System_IO_FileMode.m in Sources */,
 				AB512B5320D062510078F747 /* System_Reflection_MethodInfo.m in Sources */,
 				AB512B8020D062510078F747 /* System_IO_FileInfo.m in Sources */,
 				ABB7B6C11EA8D75E0032A7D4 /* System_Collections_Generic_KeyValuePairA2+mscorlib.m in Sources */,
